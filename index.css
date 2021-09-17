@@ -1,0 +1,98 @@
+/* fonts */
+@font-face {
+    font-family: Vazir;
+    src: url('fonts/Vazir-Black-FD.eot');
+    src: url('fonts/Vazir.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Vazir-Black-FD.woff2') format('woff2'),
+         url('fonts/Vazir-Black-FD.woff') format('woff'),
+         url('fonts/Vazir-Black-FD.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+  body {
+      font-family: "vazir";
+      background-color: #F4F4F9;
+      margin: 0%;
+  }
+
+  /* header */
+  .header {
+      position: relative;
+      background-image: url(images/bbk.jfif);
+      background-position: center;
+      background-color: #CCE3DE;
+      height: 160px;
+      text-align: center;
+      border: 8px solid #000000; border-radius: 150px;
+      padding-inline: 2px;
+      margin: 50px; 
+  }
+  /* header-text */
+  .header-text {
+      background-color: #6B9080;
+      position: absolute; margin: 15px; left: 77%; top: 12px;
+      border: 6px solid #000000;
+      border-radius: 100px;
+      padding: 20px;
+      color: #000000;
+  }
+
+  .menu {
+      position: absolute;
+      color: #000000;
+      background-color: #6B9080;
+      border: 6px solid #000000;
+      border-radius: 100px;
+      list-style: none;
+      width: 450px;
+      top: 40px;
+      left: 20px;
+      padding-right: 35%;
+      padding-left: 20px;
+  }
+
+  .ulli {
+      
+      display: inline-block;
+      padding: 5px;
+      text-decoration: none;
+  }
+  
+  .lia {
+      background-color: #CCE3DE ;
+      border: 4px solid #000000;border-radius: 30px;
+      padding: 7px;
+      margin: 10px;
+      color: #000000;
+      text-decoration: none;
+      margin: 0% auto;
+  }
+
+  .lia:hover {
+      color: #000000;
+      background-color: #EAF4F4;
+      transition: .5s;
+  }
+
+  .soft98 {
+      background-color: #000000 ;
+      border: 4px solid #000000;border-radius: 30px;
+      color: #00000000;
+      top: 46px;
+      right: 365px;
+      position: absolute;
+      padding: 21px;
+      font-family: cooper;
+  }
+
+  .soft98:hover {
+      color: white;
+      background-color: #A4C3B2;
+      padding-right: 240px;
+      transition: 1.5s;
+      padding-left: 230px;
+  }
+
+
+  
